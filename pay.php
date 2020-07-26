@@ -34,8 +34,6 @@ $post_data["product_profile"] 	= "general";
 
 
 /*
- * REST API
- * Method: GET
  * Sandbox/Test Environment: https://sandbox.sslcommerz.com
  * Live Environment: https://securepay.sslcommerz.com
  */
