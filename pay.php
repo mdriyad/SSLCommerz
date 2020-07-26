@@ -10,9 +10,9 @@ $post_data['tran_id'] 			= "your unique order id".uniqid();
 $post_data['currency'] 			= "BDT";
 $post_data['total_amount'] 		= "53";
 
-$post_data['success_url'] 		= "http://localhost/SSLCommerz_customized/success";
-$post_data['fail_url']			= "http://localhost/SSLCommerz_customized/fail";
-$post_data['cancel_url']		= "http://localhost/SSLCommerz_customized/cancel";
+$post_data['success_url'] 		= "http://localhost/sslcommerz/success";
+$post_data['fail_url']			= "http://localhost/sslcommerz/fail";
+$post_data['cancel_url']		= "http://localhost/sslcommerz/cancel";
 
 # CUSTOMER INFORMATION
 $post_data['cus_name'] 			= "Test name";
