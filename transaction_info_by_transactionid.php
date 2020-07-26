@@ -2,7 +2,15 @@
 require_once('config.php');
 
 $tran_id=urlencode("your unique order id");
+
+/*
+ * REST API
+ * Method: GET
+ * Sandbox/Test Environment: https://sandbox.sslcommerz.com/validator/api/merchantTransIDvalidationAPI.php
+ * Live Environment: https://securepay.sslcommerz.com/validator/api/merchantTransIDvalidationAPI.php
+ */
 $requested_url = ("https://sandbox.sslcommerz.com/validator/api/merchantTransIDvalidationAPI.php?tran_id=".$tran_id."&store_id=".$store_id."&store_passwd=".$store_passwd."&v=1&format=json");
+
 
 $handle = curl_init();
 curl_setopt($handle, CURLOPT_URL, $requested_url);
