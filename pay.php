@@ -10,9 +10,9 @@ $post_data['tran_id'] 			= "your unique order id".uniqid();
 $post_data['currency'] 			= "BDT";
 $post_data['total_amount'] 		= "53";
 
-$post_data['success_url'] 		= "http://localhost/sslcommerz/success";
-$post_data['fail_url']			= "http://localhost/sslcommerz/fail";
-$post_data['cancel_url']		= "http://localhost/sslcommerz/cancel";
+$post_data['success_url'] 		= "http://localhost/SSLCommerz_customized/success";
+$post_data['fail_url']			= "http://localhost/SSLCommerz_customized/fail";
+$post_data['cancel_url']		= "http://localhost/SSLCommerz_customized/cancel";
 
 # CUSTOMER INFORMATION
 $post_data['cus_name'] 			= "Test name";
@@ -28,11 +28,18 @@ $post_data['cus_fax'] 			= "";
 
 # Additional Information
 $post_data["shipping_method"] 	= "No";
-$post_data["product_name"] 		= "Computer";
+$post_data["product_name"]		= "Computer";
 $post_data["product_category"] 	= "Electronic";
 $post_data["product_profile"] 	= "general";
 
 
+/*
+ * REST API
+ * Method: GET
+ * Sandbox/Test Environment: https://sandbox.sslcommerz.com
+ * Live Environment: https://securepay.sslcommerz.com
+ */
+ 
 # REQUEST SEND TO SSLCOMMERZ
 $direct_api_url 				= "https://sandbox.sslcommerz.com/gwprocess/v4/api.php";
 
