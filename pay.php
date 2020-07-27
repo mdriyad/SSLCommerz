@@ -78,4 +78,5 @@ if(isset($sslcz['GatewayPageURL']) && $sslcz['GatewayPageURL']!="") {
 */
 ?>
 
+<?php //echo "<meta http-equiv='refresh' content='0;url=".$sslcz['GatewayPageURL']."'>"; ?>
 <script>window.location = '<?php echo $sslcz['GatewayPageURL']; ?>';</script>
